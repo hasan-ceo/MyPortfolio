@@ -1,0 +1,409 @@
+/* ______________________________ */
+/* ---------- 768PX ---------- */
+/* ______________________________ */
+
+@media only screen and (min-width:768px) {
+    .section-form h2 {
+        font-size: 250%;
+    }
+
+    form {
+        grid-template-columns: repeat(2, 49%);
+        grid-template-rows: repeat(2, 40px) 100px 40px auto;
+        -moz-column-gap: 2%;
+             column-gap: 2%;
+        row-gap: 5%;
+        padding: 2% 0;
+    }
+
+    form label {
+            font-size: 80%;
+            padding: 0;
+            line-height: 20px;
+    }
+
+    form input, #message-input {
+            text-align: left;
+            font-size: 80%;
+            padding: 2% ;
+            border: 0;
+            color: #035aa6;
+            margin-right: 50%;
+            border-radius: 5px;
+    }
+    #select-bar {
+        height: 40px;
+    }
+
+    .submit-btn {
+        margin: 5% 0 10% 0 ;
+    }
+
+}
+
+
+
+/* ______________________________ */
+/* ---------- 768PX ---------- */
+/* ______________________________ */
+
+@media only screen and (min-width:0px) and (max-width: 768px) {
+    body {
+      font-size: 20px;
+    }
+
+    header {
+        height: 80vh;
+        background-image: url(../img/header3-col.jpg);
+    }
+
+    nav {
+        width: 100vw;
+        font-size: 125%;
+    }
+
+    #header-about {
+        height: 80vh;
+        background-image: url(../img/header2-column.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+}
+
+    section {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .row-section-1, .row-section-2, .row-section-3, .row-section-4, .row-section-5 .row-section-1-text, .row-section-1-img {
+        width: 100vw;
+        align-items: center;
+    }
+      
+    .header-content {
+        padding: 10% 5% 10% 5%;
+    }
+        
+    .vid-btn, .fa-play{
+            width: 65%;
+            font-size: 100%;
+            margin-top: 10%;
+            margin-bottom: 20%;
+    }
+
+    .row-featured-left-main,
+    .row-featured-right-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pencil-img-col {
+        width: 100vw;
+        height: auto;
+        overflow: hidden;
+        margin: 20% 0 0 0 ;
+    }
+    .pencil-img-col img {
+            min-height: 30vh;
+            max-height: 40vh;
+            width: 100vw;
+    }
+
+    .feature-content {
+        width: 90vw;
+        margin: 5%;
+    }
+
+    .yt-img-col {
+        padding: 10%;
+        height: 40vh;
+        margin: 20% 0 0% 0;
+        border-bottom: 0;
+    }
+
+    .yt-card-container {
+        width: 88vw;
+        margin: 0 6vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .yt-card {
+        width: 28%;
+        padding: 175px 0 0 0 ;
+    }
+
+    .feature-content-book {
+        margin: 25% 0 0 0;
+    }
+
+    .feature-content-yt {
+        margin-top: 0;
+        border-top: 0;
+    }
+
+    footer {
+        height: 40vh;
+    } 
+
+    .row-footer-nav {
+        padding: 5% 0 0 0 ;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: repeat(2, minmax(20px, 60px));
+        grid-template-areas:
+        "col-l col-r"
+        "col-l col-r" 
+        "footer footer";
+    }
+
+    .footer-col a {
+        height: 40px;
+        width: 80%;
+    }
+
+    .footer-nav {
+        grid-area: footer;
+        height: 20px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .pf-para {
+        width: 100%;
+        font-size: 90%;
+    }
+
+    .table-title {
+        text-align: center;
+        margin: 5% 0;
+    }
+
+}
+
+
+
+/* ______________________________ */
+/* ---------- 600PX ---------- */
+/* ______________________________ */
+
+@media only screen and (min-width:0px) and (max-width: 600px) {
+    body {
+      font-size: 13px;
+    }
+
+    .row-nav {
+        width: 100vw;
+        font-size: 70%;
+    }
+
+    .header-content {
+        height: 210px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 5%;
+        top: 100px;
+    }
+
+    .row-section-1 .long-copy, 
+    .row-section-2 .long-copy, 
+    .row-section-3 .long-copy, 
+    .row-section-4 .long-copy, 
+    .row-section-5 .long-copy, 
+    .row-section-1-text .long-copy {
+        font-size: 100%;
+        line-height: 20px;
+        align-items: center;
+    }
+
+    .row-section-1-text {
+        padding: 0 ;
+        margin: 60px 0 0 0 ;
+    }
+
+    .yt-img-col {
+        padding: 10%;
+        height: 40vh;
+        margin: 20% 0 0 0;
+        border-bottom: 0;
+    }
+
+    .yt-card-container {
+        width: 90vw;
+        margin: 0 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 5% 0;
+    }
+    .yt-card {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60% 0 0 0 ;
+        margin: 5% 0;
+    }
+
+    .yt-card .acc-type-title {
+        font-size: 200%;
+        margin: 0;
+        padding: 0 5%;
+    }
+    .yt-card .yt-text {
+        font-size: 100%;
+    }
+
+    .feature-content-yt {
+        margin: 0;
+        border-top: 0;
+    }
+
+
+
+
+    .skill-block {
+        width: 90vw;
+        margin: 0 5vw 10% 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-table {
+        margin: 0 0 0 4vw;
+        padding: 0;
+    }
+
+    .row-section-2 {
+        background-image: linear-gradient(transparent, transparent);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience-column, .education-column {
+        background-image: linear-gradient(#e4e4e4, #ffffff);
+        width: 100vw;
+        height: 40vh;
+        margin: 10% 0 ;
+        padding: 10% 0 0 0 ;
+    }
+
+    .row-section-3 {
+        width: 90vw;
+        height: 40vh;
+        margin: 0 5vw 10% 5vw;
+    }
+
+    .row-section-4 {
+        background-image: linear-gradient(#e4e4e4, #ffffff);
+        padding: 20% 0;
+    }
+
+    .row-section-4 h2 {
+        font-size: 250%;
+    }
+
+    .portfolio-content {
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .portfolio-content .pf-para {
+        line-height: 15px;
+    }
+
+    .top-text-pf .pf-para-top {
+        width: 150%;
+    }
+
+    .top-text-pf .pf-title {
+        margin-top: 15%;
+    }
+
+}
+
+
+
+/* ______________________________ */
+/* ---------- 480PX ---------- */
+/* ______________________________ */
+
+@media only screen and (min-width:0px) and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+
+    .row-section-1, .row-section-2, .row-section-3, .row-section-4, .row-section-5 .row-section-1-text, .row-section-1-img {
+        width: 100vw;
+        align-items: center;
+    }
+
+    .row-nav {
+        width: 100vw;
+        font-size: 70%;
+    }
+
+    .main-nav {
+        font-size: 90%;
+    }
+
+    .header-content {
+        font-size: 80%;
+        height: 160px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 5%;
+        top: 70px;
+    }
+
+}
+
+
+/* ______________________________ */
+/* ---------- 320PX ---------- */
+/* ______________________________ */
+
+@media only screen and (max-width: 320px) {
+
+    nav {
+        font-size: 60%;
+    }    
+
+    .main-nav {
+        font-size: 150%;
+    }
+      
+    .header-content {
+        max-height: 150px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 5%;
+        font-size: 60%;
+        top: 70px;
+    }
+
+    footer {
+        height: 55vh;
+    }
+}
+
+
+
+
